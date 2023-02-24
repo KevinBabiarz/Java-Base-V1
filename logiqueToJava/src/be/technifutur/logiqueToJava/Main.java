@@ -10,7 +10,12 @@ public class Main {
 
         Runnable[] exercices = {
                 new NombrePremier(),
-                new Caractere()
+                new Caractere(),
+                new Split(),
+                new recherchePosition(),
+                new BinaryTest(),
+                new Listee(),
+                new Tri()
         };
         do {
             for (int i = 0; i < exercices.length; i++) {
