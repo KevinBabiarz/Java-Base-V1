@@ -14,8 +14,8 @@ public class SudokuVue4x4 implements SudokuVue {
             +-----+-----+""".replace(".","%s");
 
     private SudokuModel4x4 model;
-    public SudokuVue4x4(SudokuModel4x4 model){
-        this.model = model;
+    public SudokuVue4x4(SudokuModel4x4 leModel){
+        this.model = leModel;
     }
 
     @Override
